@@ -25,19 +25,20 @@ Open the Jupyter Notebook in the starter code folder named part_2_mars_weather.i
 5. Analyze your dataset by using Pandas functions to answer the following questions:
 a. How many months exist on Mars?
 b. How many Martian (and not Earth) days worth of data exist in the scraped dataset?
-c. What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
--- Find the average minimum daily temperature for all of the months.
--- Plot the results as a bar chart.
+c. What are the coldest and the warmest months on Mars (at the location of Curiosity)?
+
 ![avg_temp_by_month](https://github.com/alanisrperez/web-scraping-challenge/blob/main/Outputs/avg_temp_by_month.png)
+
 ![avg_temp_by_month_sorted](https://github.com/alanisrperez/web-scraping-challenge/blob/main/Outputs/avg_temp_by_month_sorted.png)
-d. Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
--- Find the average daily atmospheric pressure of all the months.
--- Plot the results as a bar chart.
+
+d. Which months have the lowest and the highest atmospheric pressure on Mars?
+
 ![pressure_by_month](https://github.com/alanisrperez/web-scraping-challenge/blob/main/Outputs/pressure_by_month.png)
-e. About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
--- Consider how many days elapse on Earth in the time that Mars circles the Sun once.
--- Visually estimate the result by plotting the daily minimum temperature.
+
+e. About how many terrestrial (Earth) days exist in a Martian year?
+
 ![terrestrial_days](https://github.com/alanisrperez/web-scraping-challenge/blob/main/Outputs/terrestrial_days.png)
+
 6. Export the DataFrame to a CSV file.
 
 References
